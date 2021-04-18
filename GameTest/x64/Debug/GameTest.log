@@ -1,0 +1,6 @@
+﻿  StatTracker.cpp
+C:\Users\bensa\Desktop\NextAPI2020\GameTest\App\AppSettings.h(60,1): warning C4005: 'PI': macro redefinition
+C:\Users\bensa\Desktop\NextAPI2020\GameTest\Vectors.h(6): message : see previous definition of 'PI'
+  GameTest.vcxproj -> C:\Users\bensa\Desktop\NextAPI2020\x64\Debug\GameTest.exe
+  C:\Users\bensa\Desktop\NextAPI2020\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied

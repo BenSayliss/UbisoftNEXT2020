@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App\app.cpp" />
+    <ClCompile Include="App\main.cpp" />
+    <ClCompile Include="App\SimpleController.cpp" />
+    <ClCompile Include="App\SimpleSound.cpp" />
+    <ClCompile Include="App\SimpleSprite.cpp" />
+    <ClCompile Include="App\TextureLoader.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>MyCode\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>MyCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StatTracker.cpp">
+      <Filter>MyCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBuilder.cpp">
+      <Filter>MyCode\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>MyCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>MyCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShip.cpp">
+      <Filter>MyCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyShooter.cpp">
+      <Filter>MyCode\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>MyCode\Other Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h" />
+    <ClInclude Include="App\AppSettings.h" />
+    <ClInclude Include="App\main.h" />
+    <ClInclude Include="App\SimpleController.h" />
+    <ClInclude Include="App\SimpleSound.h" />
+    <ClInclude Include="App\SimpleSprite.h" />
+    <ClInclude Include="App\TextureLoader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vectors.h">
+      <Filter>MyCode\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonT.h">
+      <Filter>MyCode\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>MyCode\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>MyCode\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>MyCode\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>MyCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StatTracker.h">
+      <Filter>MyCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>MyCode\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBuilder.h">
+      <Filter>MyCode\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>MyCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>MyCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShip.h">
+      <Filter>MyCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyShooter.h">
+      <Filter>MyCode\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>MyCode\Other Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MyCode">
+      <UniqueIdentifier>{9704a5c2-800b-4e5a-ba91-e433e527f705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Math">
+      <UniqueIdentifier>{f98f9078-7427-48bd-8171-ae44383c5ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Templates">
+      <UniqueIdentifier>{f639c091-9b1a-4b70-8110-6ef2eedaa3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Player">
+      <UniqueIdentifier>{88c8cd43-a61e-48de-9b83-d8e43b39ee82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Level">
+      <UniqueIdentifier>{be0e252a-8c45-4c2b-876d-1ee1bc83a696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Enemy">
+      <UniqueIdentifier>{cfc78de2-d2a6-4792-8beb-bf2ba122f2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyCode\Other Objects">
+      <UniqueIdentifier>{b67587c8-ff60-48fe-bb7e-1a3436f358df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
